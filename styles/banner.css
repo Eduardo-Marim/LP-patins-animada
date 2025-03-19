@@ -1,6 +1,5 @@
 .banner{
   max-width: 100%;
-  border: solid deeppink;
   padding-block: 2.5rem;
   overflow: hidden;
 
@@ -14,13 +13,13 @@
     display: flex;
     gap: 1.5rem;
 
-    animation: rolling 2s infinite;
+    animation: rolling 2s linear infinite;
   }
 
   .bg-gradient-animate {
     background: linear-gradient(
       45deg,
-      var(--snitap-sky-light)
+      var(--snitap-sky-light),
       var(--snitap-joy-light)
     );
     background-size: 400%;
