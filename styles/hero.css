@@ -133,6 +133,46 @@ section.hero {
   }
 }
 
+@media (width <= 375px){
+  section.hero{
+    max-width: 24rem;
+    width: 100%;
+    padding: 1rem 2.5rem 4rem;
+    display: flex;
+    flex-direction: column-reverse;
+    &  div h1  {
+      font-size: 2rem;
+      line-height: 3rem;
+      
+      & div span{
+         height: 5rem;
+        font-size: 2rem;
+    }
+    }
+    
+      
+  & .buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  & > div:nth-child(2){
+    height: 19.5rem;
+    
+    & img[src*='stars-1']{
+      top: 15%;
+    }
+    & img[src*='stars-2']{
+      bottom: 40%;
+      left: 90%;
+    }
+
+  }
+  
+  }
+ 
+}
+
 @keyframes slideIn {
   50% {
     transform: translateX(-20px);
