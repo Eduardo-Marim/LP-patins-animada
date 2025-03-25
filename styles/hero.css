@@ -133,7 +133,7 @@ section.hero {
   }
 }
 
-@media (width <= 375px){
+@media (width <= 430px){
   section.hero{
     max-width: 24rem;
     width: 100%;
